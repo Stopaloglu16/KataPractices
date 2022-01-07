@@ -76,6 +76,62 @@ namespace XmasLight
             }
 
         }
+
+
+
+
+
+        public void UpVolumeLight(int rowInx, int colInx)
+        {
+            myLights[rowInx, colInx].BrightVol += 1;
+        }
+
+        public void DownVolumeLight(int rowInx, int colInx)
+        {
+            myLights[rowInx, colInx].BrightVol -= myLights[rowInx, colInx].BrightVol == 0? 1:0;
+        }
+
+        public void ToggltVolumeLight(int rowInx, int colInx)
+        {
+            myLights[rowInx, colInx].BrightVol += 2;
+        }
+
+
+        public void UpVolumeRange(int rowInxStart, int colInxStart, int rowInxEnd, int colInxEnd)
+        {
+            for (int ri = rowInxStart; ri <= rowInxEnd; ri++)
+            {
+                for (int ci = colInxStart; ci <= colInxEnd; ci++)
+                {
+                    UpVolumeLight(ri, ci);
+                }
+            }
+        }
+
+        public void DownVolumeRange(int rowInxStart, int colInxStart, int rowInxEnd, int colInxEnd)
+        {
+            for (int ri = rowInxStart; ri <= rowInxEnd; ri++)
+            {
+                for (int ci = colInxStart; ci <= colInxEnd; ci++)
+                {
+                    DownVolumeLight(ri, ci);
+                }
+            }
+        }
+
+        public void ToggleVolumeRange(int rowInxStart, int colInxStart, int rowInxEnd, int colInxEnd)
+        {
+            for (int ri = rowInxStart; ri <= rowInxEnd; ri++)
+            {
+                for (int ci = colInxStart; ci <= colInxEnd; ci++)
+                {
+                    ToggltVolumeLight(ri, ci);
+                }
+            }
+
+        }
+
+
     }
 
 }

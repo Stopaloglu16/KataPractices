@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using XmasLight;
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello Santa!");
 
 
 GardenGrid myGarden = new GardenGrid(1000,1000);
