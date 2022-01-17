@@ -8,15 +8,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XmasLightKata", "XmasLightK
 		Requests.txt = Requests.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmasLight", "..\XmasLightKata\XmasLight\XmasLight.csproj", "{FA8FDF0F-4C7B-4146-B1BE-202BC7B2B45B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmasLight", "..\XmasLightKata\XmasLight\XmasLight.csproj", "{FA8FDF0F-4C7B-4146-B1BE-202BC7B2B45B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmasLightTest", "..\XmasLightKata\XmasLightTest\XmasLightTest.csproj", "{972D444D-6CE1-4448-85F1-944E1DD2FDAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmasLightTest", "..\XmasLightKata\XmasLightTest\XmasLightTest.csproj", "{972D444D-6CE1-4448-85F1-944E1DD2FDAF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConfigureWardobeKata", "ConfigureWardobeKata", "{250DD9FA-20C7-4AB6-AF8D-5E8AE4BCFE2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigureWardobe", "..\ConfigureWardobeKata\ConfigureWardobe\ConfigureWardobe.csproj", "{ABA8C801-9E82-4AFC-9EF7-4577D3B54F2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigureWardobe", "..\ConfigureWardobeKata\ConfigureWardobe\ConfigureWardobe.csproj", "{ABA8C801-9E82-4AFC-9EF7-4577D3B54F2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigureWardobeTest", "..\ConfigureWardobeKata\ConfigureWardobeTest\ConfigureWardobeTest.csproj", "{8C5FF0B3-EC8E-4276-8CC1-485B56E6B7AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigureWardobeTest", "..\ConfigureWardobeKata\ConfigureWardobeTest\ConfigureWardobeTest.csproj", "{8C5FF0B3-EC8E-4276-8CC1-485B56E6B7AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FizzBuzzKata", "FizzBuzzKata", "{380148BC-0FD8-4395-8096-9065B35D02F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "..\FizzBuzzKata\FizzBuzz\FizzBuzz.csproj", "{7B170D84-EF57-4456-A8D0-FA202B3CD019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzTest", "..\FizzBuzzKata\FizzBuzzTest\FizzBuzzTest.csproj", "{4DF7AD14-3A00-4ADB-A80C-8E0F8BE9A33E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,6 +46,14 @@ Global
 		{8C5FF0B3-EC8E-4276-8CC1-485B56E6B7AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C5FF0B3-EC8E-4276-8CC1-485B56E6B7AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C5FF0B3-EC8E-4276-8CC1-485B56E6B7AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B170D84-EF57-4456-A8D0-FA202B3CD019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B170D84-EF57-4456-A8D0-FA202B3CD019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B170D84-EF57-4456-A8D0-FA202B3CD019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B170D84-EF57-4456-A8D0-FA202B3CD019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DF7AD14-3A00-4ADB-A80C-8E0F8BE9A33E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DF7AD14-3A00-4ADB-A80C-8E0F8BE9A33E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DF7AD14-3A00-4ADB-A80C-8E0F8BE9A33E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DF7AD14-3A00-4ADB-A80C-8E0F8BE9A33E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +63,8 @@ Global
 		{972D444D-6CE1-4448-85F1-944E1DD2FDAF} = {310E300C-4AE7-4CD2-A731-C6CB85B7A862}
 		{ABA8C801-9E82-4AFC-9EF7-4577D3B54F2B} = {250DD9FA-20C7-4AB6-AF8D-5E8AE4BCFE2B}
 		{8C5FF0B3-EC8E-4276-8CC1-485B56E6B7AE} = {250DD9FA-20C7-4AB6-AF8D-5E8AE4BCFE2B}
+		{7B170D84-EF57-4456-A8D0-FA202B3CD019} = {380148BC-0FD8-4395-8096-9065B35D02F3}
+		{4DF7AD14-3A00-4ADB-A80C-8E0F8BE9A33E} = {380148BC-0FD8-4395-8096-9065B35D02F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {85FB1995-CF37-47F4-9E4D-83306C715EC6}
