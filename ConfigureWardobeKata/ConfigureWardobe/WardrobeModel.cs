@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace ConfigureWardobe
 {
@@ -13,7 +8,7 @@ namespace ConfigureWardobe
 
         public WardrobeOptions()
         {
-            myList = new List<WardrobeModel>() { 
+            myList = new List<WardrobeModel>() {
                 new WardrobeModel(1, "50cm", 50, 59),
                 new WardrobeModel(2, "75cm", 75, 62),
                 new WardrobeModel(3, "100cm", 100, 90),
@@ -91,7 +86,7 @@ namespace ConfigureWardobe
                         break;
                     }
 
-                    if( c == myOptions.myList.Count)
+                    if (c == myOptions.myList.Count)
                     {
                         c = 0;
                     }
@@ -100,8 +95,8 @@ namespace ConfigureWardobe
 
             }
 
-            return mostSpace;   
-           
+            return mostSpace;
+
         }
 
         public void CalculateByCost()

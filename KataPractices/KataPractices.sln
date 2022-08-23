@@ -26,9 +26,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzzTest", "..\FizzBuzz
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ManhattanDistanceKata", "ManhattanDistanceKata", "{D1CF442A-98B4-4B4B-B32F-4FD69E2780F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManhattanDistanceTest", "..\ManhattanDistanceKata\ManhattanDistanceTest\ManhattanDistanceTest.csproj", "{2FA69487-4963-40C6-8DC6-4A2723468160}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManhattanDistanceTest", "..\ManhattanDistanceKata\ManhattanDistanceTest\ManhattanDistanceTest.csproj", "{2FA69487-4963-40C6-8DC6-4A2723468160}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManhattanDistance", "..\ManhattanDistanceKata\ManhattanDistance\ManhattanDistance.csproj", "{A71FD797-DA57-4625-A7D0-D1C4A56C62B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManhattanDistance", "..\ManhattanDistanceKata\ManhattanDistance\ManhattanDistance.csproj", "{A71FD797-DA57-4625-A7D0-D1C4A56C62B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

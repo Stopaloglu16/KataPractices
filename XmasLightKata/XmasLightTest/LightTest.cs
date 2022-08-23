@@ -1,5 +1,4 @@
 ﻿using NUnit.Framework;
-using System;
 using XmasLight;
 
 namespace XmasLightTest
@@ -8,11 +7,11 @@ namespace XmasLightTest
     public class LightTest
     {
 
-        [TestCase(0, 0,999, 999)]
+        [TestCase(0, 0, 999, 999)]
         public void TurnOnAllLight(int rowInxStart, int colInxStart, int rowInxEnd, int colInxEnd)
         {
-            GardenGrid myGarden = new GardenGrid(1000,1000);
-            
+            GardenGrid myGarden = new GardenGrid(1000, 1000);
+
             myGarden.TurnOnRange(rowInxStart, colInxStart, rowInxEnd, colInxEnd);
 
             for (int ri = rowInxStart; ri <= rowInxEnd; ri++)
@@ -41,7 +40,7 @@ namespace XmasLightTest
             {
                 for (int ci = 0; ci < 1000; ci++)
                 {
-                    totalOnLights += myGarden.myLights[ri, ci].IsOn == true?1:0;
+                    totalOnLights += myGarden.myLights[ri, ci].IsOn == true ? 1 : 0;
                 }
             }
 
@@ -50,7 +49,7 @@ namespace XmasLightTest
         }
 
 
-     
+
 
 
 

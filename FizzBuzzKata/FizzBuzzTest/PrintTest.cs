@@ -1,10 +1,5 @@
 ﻿using FizzBuzz;
 using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FizzBuzzTest
 {
@@ -18,9 +13,9 @@ namespace FizzBuzzTest
         [TestCase(15, "FizzBuzz")]
         public void return_fizz_buzz_fizzbuzz(int value, string rtnValue)
         {
-            
+
             Assert.AreEqual(rtnValue, FizzBuzzLogic.PrintOption(value));
- 
+
         }
 
     }

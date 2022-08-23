@@ -1,9 +1,4 @@
 ﻿using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using XmasLight;
 
 namespace XmasLightTest
@@ -28,7 +23,7 @@ namespace XmasLightTest
             GardenGrid myGarden = new GardenGrid(1000, 1000);
 
             myGarden.ToggleVolumeRange(0, 0, 999, 999);
-            
+
             int totalVol = 0;
 
             for (int ri = 0; ri < 1000; ri++)

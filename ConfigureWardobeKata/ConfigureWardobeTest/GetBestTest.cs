@@ -1,14 +1,10 @@
 ﻿using ConfigureWardobe;
 using NUnit.Framework;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConfigureWardobeTest
 {
-   
+
     public class GetBestTest
     {
         [SetUp]
@@ -17,7 +13,7 @@ namespace ConfigureWardobeTest
         }
 
 
-        [TestCase(50,50)]
+        [TestCase(50, 50)]
         [TestCase(150, 125)]
         [TestCase(400, 375)]
         public void Test1(int maxSize, int answerSize)
@@ -31,10 +27,10 @@ namespace ConfigureWardobeTest
 
             foreach (var item in myList)
             {
-                answerSize += item; 
+                answerSize += item;
             }
 
-            Assert.AreEqual( answerSize, myList.Sum());
+            Assert.AreEqual(answerSize, myList.Sum());
 
         }
 

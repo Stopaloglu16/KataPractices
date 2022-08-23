@@ -1,5 +1,5 @@
-using NUnit.Framework;
 using ManhattanDistance;
+using NUnit.Framework;
 
 namespace ManhattanDistanceTest
 {
@@ -7,7 +7,7 @@ namespace ManhattanDistanceTest
     {
 
 
-        [TestCase(2,9,3,5,5)]
+        [TestCase(2, 9, 3, 5, 5)]
         public void Test1(int x1, int y1, int x2, int y2, int result)
         {
 
@@ -17,6 +17,7 @@ namespace ManhattanDistanceTest
             int myDistance = pointFrom.manhattanDistance(pointFrom, pointTo);
 
             Assert.AreEqual(result, myDistance);
+
         }
 
     }

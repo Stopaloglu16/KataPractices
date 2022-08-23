@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ManhattanDistance
+﻿namespace ManhattanDistance
 {
 
 
@@ -22,6 +16,7 @@ namespace ManhattanDistance
 
         public int manhattanDistance(Point _from, Point _to)
         {
+
 
             return Math.Abs(_from.x - _to.x) + Math.Abs(_from.y - _to.y);
 

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace XmasLight
+﻿namespace XmasLight
 {
     public class GardenGrid
     {
@@ -12,7 +6,7 @@ namespace XmasLight
         public GardenGrid(int rowSize, int colSize)
         {
             myLights = new Light[rowSize, colSize];
-            
+
             for (int ri = 0; ri < rowSize; ri++)
             {
                 for (int ci = 0; ci < colSize; ci++)
@@ -24,7 +18,7 @@ namespace XmasLight
 
         }
 
-        public Light[,] myLights { get; set; } 
+        public Light[,] myLights { get; set; }
 
 
         public void TurnOnLight(int rowInx, int colInx)
@@ -88,7 +82,7 @@ namespace XmasLight
 
         public void DownVolumeLight(int rowInx, int colInx)
         {
-            myLights[rowInx, colInx].BrightVol -= myLights[rowInx, colInx].BrightVol == 0? 1:0;
+            myLights[rowInx, colInx].BrightVol -= myLights[rowInx, colInx].BrightVol == 0 ? 1 : 0;
         }
 
         public void ToggltVolumeLight(int rowInx, int colInx)
